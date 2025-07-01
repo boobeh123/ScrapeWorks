@@ -26,4 +26,13 @@ Watch the site progress - Deployed site: https://scrapeworks.netlify.app/
     - Installed morgan for logging, express-validator for input validator & sanitization
 - I installed dotenv & mongoose
     - Got a LeadSchema planned and DB_STRING connected to MongoDB
+- I created two directories-- frontend & backend. 
+    - One of the main reasons this is done is because React has separate dependencies (node_modules) than the backend
+    - It also keeps the project organized and still follows MVC architecture
+- I created a Vite + React project 
+- I installed Tailwindcss, postcss, autoprefixer
+    - Ran into an error and couldn't initialize tailwindcss with npx
+        - I created the tailwind.config.cjs & postcss.config.cjs manually
+- Express does not render a React frontend the same way as a templating language like EJS, pug, or Handlebars
+    - I will be using Client-Side Rendering (CSR)
 ---------------------------------------------------------------------------------------------------------------------------
