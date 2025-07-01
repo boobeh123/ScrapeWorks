@@ -1,8 +1,9 @@
 ## "What are things I can do early at the start of building a website from scratch, to make the code more mudular, flexible, and organized?"
+---
+- I asked this question, and I will follow the answer.
+- I will start from a blank page and build a web application.
 
-- I asked this question, and I will follow the answer. I will start from a blank page and build a web application.
-
-
+Watch the site progress - Deployed site: https://scrapeworks.netlify.app/
 
 
 
