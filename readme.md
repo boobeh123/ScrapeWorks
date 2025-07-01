@@ -1,7 +1,7 @@
 ## Description
 A full-stack React web application. Under development
 
-Deployed on Railway: [https://pretriq.com/](https://scrapeworks.netlify.app/)
+Deployed on Netlify https://scrapeworks.netlify.app/
 
 ## Demo
 
