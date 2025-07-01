@@ -3,5 +3,6 @@ h1 {
 }
 
 body {
+    font-family: 'Inter', Arial, sans-serif;
     background: linear-gradient(to left, #333, #666);
 }
