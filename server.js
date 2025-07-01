@@ -2,9 +2,12 @@ const express = require('express')
 const app = express()
 const morgan = require('morgan');
 const { body, validationResult } = require('express-validator');
+const mongoose = require('mongoose');
+const connectDB = require('./config/database')
 const homeRoutes = require('./routes/home')
 const PORT = process.env.PORT || 3000;
-
+require('dotenv').config({path: './config/.env'})
+connectDB()
 // Middleware 
 app.use(express.json());    // Parses JSON
 app.use(morgan('dev'));     // Logging
