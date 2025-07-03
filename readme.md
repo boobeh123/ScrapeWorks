@@ -1,7 +1,8 @@
 ## Description
 A full-stack React web application. Under development
 
-Deployed on Netlify https://scrapeworks.netlify.app/
+Frontend Deployed on Netlify: https://scrapeworks.netlify.app/
+Backend Deployed on Railway: https://scrapeworks-production.up.railway.app/
 
 ## Demo
 
