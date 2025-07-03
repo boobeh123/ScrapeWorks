@@ -22,9 +22,21 @@ Watch the site progress - Deployed site: https://scrapeworks.netlify.app/
 
 
 
-
 ## Version History 
 ---
+# 🛠️ ScrapeWorks v0.1 — MVP functionality testing
+📅 **Release Date:** July 2, 2025
+---
+# 📢 Developer's Notes - ****
+---
+- I learned you can `npm run dev` and connect to <strong>TWO</strong> localhosts on different ports!!!
+    - Using `npm run dev` when on `frontend` directory will deploy the website to localhost on port 5173
+    - Using `npm run dev` when on `backend` directory will deploy the website to localhost on port 3000
+    - While live on localhost:5173, I am sending a POST request to the `/api/scrape` route on the frontend 
+        - While also live on localhost:3000, I am listening for POST requests on the `/api/scrape` route on the backend 
+            - This interaction is the concept of how to deploy a React frontend on one service (Netlify) & deploy the backend/API on another service (Railway) and have them tie into one web application. 
+
+---------------------------------------------------------------------------------------------------------------------------
 # 🛠️ ScrapeWorks v0 — Project Initialization, tooling & environment
 📅 **Release Date:** July 1, 2025
 ---
