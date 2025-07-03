@@ -12,7 +12,12 @@ export default function ScraperSection() {
     setError("");
     setLeads([]);
     try {
-      const response = await fetch("http://localhost:3000/api/scrape", {
+      const API_BASE_URL =
+      window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"
+        ? "http://localhost:3000"
+        : "https://scrapeworks-production.up.railway.app/";
+    
+    const response = await fetch(`${API_BASE_URL}/api/scrape`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ city }),
