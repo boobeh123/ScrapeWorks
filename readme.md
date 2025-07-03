@@ -28,7 +28,7 @@ Watch the site progress - Deployed site: https://scrapeworks.netlify.app/
 # 🛠️ ScrapeWorks v0.1 — MVP functionality testing
 📅 **Release Date:** July 2, 2025
 ---
-# 📢 Developer's Notes - ****
+# 📢 Developer's Notes - **MonoRepo kicking my ass, Functionality concept works**
 ---
 - I learned you can `npm run dev` and connect to <strong>TWO</strong> localhosts on different ports!!!
     - Using `npm run dev` when on `frontend` directory will deploy the website to localhost on port 5173
@@ -36,7 +36,12 @@ Watch the site progress - Deployed site: https://scrapeworks.netlify.app/
     - While live on localhost:5173, I am sending a POST request to the `/api/scrape` route on the frontend 
         - While also live on localhost:3000, I am listening for POST requests on the `/api/scrape` route on the backend 
             - This interaction is the concept of how to deploy a React frontend on one service (Netlify) & deploy the backend/API on another service (Railway) and have them tie into one web application. 
-
+- I may make a separate repository for frontend.
+    - Spent just under 2 days debugging why my tailwindcss classes are visible on my html, but not visually visible on the page
+- The web app scrapes the first page of several business categories
+    - Currently saves to localStorage for guest-user-flow
+        - I was going to wire up the db to save leads after I fixed the tailwindcss bug
+            - I didn't fix the bug
 ---------------------------------------------------------------------------------------------------------------------------
 # 🛠️ ScrapeWorks v0 — Project Initialization, tooling & environment
 📅 **Release Date:** July 1, 2025
