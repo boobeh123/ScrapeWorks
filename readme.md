@@ -2,6 +2,7 @@
 A full-stack React web application. Under development
 
 Frontend Deployed on Netlify: https://scrapeworks.netlify.app/
+<br />
 Backend Deployed on Railway: https://scrapeworks-production.up.railway.app/
 
 ## Demo
@@ -40,6 +41,12 @@ Watch the site progress - Deployed site: https://scrapeworks.netlify.app/
                     - Renaming  `postcss.config.js` to `postcss.config.cjs`
                 - Adding `'@tailwindcss/postcss': {} ` to my `plugins` array
                 - Setting the `content` array to include all relevant source files inside of `tailwind.config.js` 
+- I might play around with MapBox, GIS portal, Geospatial data/geocoding API
+    - Will need to connect db, but not for scraping leads-- might sunset the webscraper
+        - Met a salesman today and he showed me his application for work-- his company completely gamified the work!
+            - HE SHOWED ME A LEADERBOARD OF HOW MANY SALES HE MADE
+                - DIDN'T CARE ABOUT THAT (5 figures holymoly) I WAS BLOWN AWAY AT THE MAP/HOUSES/ICONS AND WHAT EACH ICON REPRESENTED
+                    - "THIS COLOR MEANS NOT A CLIENT, THIS ICON MEANS CURRENTLY OUR CUSTOMER, AND THIS!.. MEANS THEY LEFT A 5* REVIEW"
 ---------------------------------------------------------------------------------------------------------------------------
 ---
 # 🛠️ ScrapeWorks v0.1 — MVP functionality testing
