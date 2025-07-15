@@ -25,6 +25,23 @@ Watch the site progress - Deployed site: https://scrapeworks.netlify.app/
 
 ## Version History 
 ---
+# 🛠️ ScrapeWorks v0.2 — React/Vite & TailwindCss v4 connected
+📅 **Release Date:** July 14, 2025
+---
+# 📢 Developer's Notes - **Debugging & slight styling**
+---
+- React would render my elements onto the page, but no utility classes was being applied from tailwind
+    - Here's what I did to debug & fix the styling 
+        - Made sure the Tailwind CSS file was imported in the main entry point (`main.jsx`).
+        - Didn't run `npm run build` so my `dist/` directory was never created 
+        - Followed the TailwindCSS v4 documentation for both vite and postcss
+            - Created `tailwind.config.js`, `vite.config.js`, & `postcss.config.cjs`
+                - Frontend `package.json` tells Node to expect ES modules &  `postcss.config.js` uses CommonJS syntax (`module.exports`) which is not allowed in ES modules
+                    - Renaming  `postcss.config.js` to `postcss.config.cjs`
+                - Adding `'@tailwindcss/postcss': {} ` to my `plugins` array
+                - Setting the `content` array to include all relevant source files inside of `tailwind.config.js` 
+---------------------------------------------------------------------------------------------------------------------------
+---
 # 🛠️ ScrapeWorks v0.1 — MVP functionality testing
 📅 **Release Date:** July 2, 2025
 ---
