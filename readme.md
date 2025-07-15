@@ -35,7 +35,7 @@ Watch the site progress - Deployed site: https://scrapeworks.netlify.app/
     - Here's what I did to debug & fix the styling 
         - Made sure the Tailwind CSS file was imported in the main entry point (`main.jsx`).
         - Didn't run `npm run build` so my `dist/` directory was never created 
-        - Followed the TailwindCSS v4 documentation for both vite and postcss
+        - Followed the TailwindCSS v4 ![documentation](https://tailwindcss.com/docs/installation/using-vite) for both vite and postcss
             - Created `tailwind.config.js`, `vite.config.js`, & `postcss.config.cjs`
                 - Frontend `package.json` tells Node to expect ES modules &  `postcss.config.js` uses CommonJS syntax (`module.exports`) which is not allowed in ES modules
                     - Renaming  `postcss.config.js` to `postcss.config.cjs`
